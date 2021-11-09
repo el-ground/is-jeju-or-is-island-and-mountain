@@ -1,0 +1,19 @@
+{
+  "name": "is-jeju-or-is-island-and-mountain",
+  "version": "1.0.1",
+  "description": "Identifier which confirms whether a Korean zip code is on the Jeju province, or island + mountain regions",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc && cp ./src/zip-codes.js ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/el-ground/is-jeju-or-is-island-and-mountain.git"
+  },
+  "author": "sjeon@elground.com",
+  "license": "MIT"
+}
