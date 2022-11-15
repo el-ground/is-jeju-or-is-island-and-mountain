@@ -1,1 +1,4 @@
-export { isJeju, isIslandAndMountain } from './is-jeju-or-is-island-and-mountain'
+export {
+  isJeju,
+  isIslandAndMountain,
+} from '#src/models/is-jeju-or-is-island-and-mountain.js'

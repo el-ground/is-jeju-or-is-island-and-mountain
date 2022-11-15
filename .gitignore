@@ -51,16 +51,12 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# dotenv environment variables file
-.env
-.env.*
+# dotenv environment variable files
+.env*
 
 # gatsby files
 .cache/
 public
-
-# build results
-dist
 
 # Mac files
 .DS_Store
@@ -72,15 +68,24 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
+# above from https://github.com/gatsbyjs/gatsby-starter-default/blob/master/.gitignore
+# Yarn w/o pnp
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# above from https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+
 # Vim generated
 *.swp 
 
-
-# firebase
-.firebase/
-
-# temp directory
+# temp directory for shared codes in the monorepo
 temp/
 
-# repl
-runner.js
+# build results
+dist
