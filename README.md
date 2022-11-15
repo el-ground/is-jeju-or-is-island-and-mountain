@@ -12,4 +12,4 @@ Using yarn:\
 # Methods
 `isJeju(zipcode)`: takes in zip code **string** as input and returns **boolean** value\
 \
-`isMountain(zipcode)`: takes in zip code **string** as input and returns **boolean** value
+`isIslandAndMountain(zipcode)`: takes in zip code **string** as input and returns **boolean** value
